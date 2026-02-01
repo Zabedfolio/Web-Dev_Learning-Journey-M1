@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        .dummy{
+            border: 1px solid tomato;
+            width: 200px;
+            height: 100px;
+        }
+        .box{
+            border: 2px dotted black;
+        }
+
+        /* .ring{
+            position: relative;
+            left: 50px;
+            top: -30px;
+        } */
+
+        /* .ring{
+            position: absolute;
+            top: 40px;
+        } */
+
+        .ring{
+            position: sticky;
+            top: 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h3>CSS Position</h3>
+    <ol>
+        <!-- normal -->
+
+        <!-- flow related -->
+         <li>Static</li>
+         <li>Relative: Change based on current position, didn't leave the place</li>
+            <li>Absolute: in comparison its own position, it will lose its position.</li>
+
+            <!-- scroll related -->
+            <li>Fixed</li>
+            <li>Sticky</li>
+    </ol>
+
+    <div class="swim-container">
+        <div class="box boy"><img src="boy-illustration-vector_844724-3009.avif" alt=""></div>
+        <div class="box ring"><img width="500px" src="pngtree-3d-swim-ring-png-image_7963028.png" alt=""></div>
+        <div class="box water"><img width="500px" src="pngtree-realistic-water-splash-effect-isolated-png-image_20882717.png" alt=""></div>
+
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    </div>
+</body>
+</html>

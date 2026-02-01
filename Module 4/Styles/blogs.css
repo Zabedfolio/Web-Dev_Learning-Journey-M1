@@ -1,0 +1,15 @@
+nav li a{
+    text-decoration: none;
+}
+nav li a:hover{
+    text-decoration: wavy underline;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right:   10px;
+}
+
+footer{
+    text-align: center;
+}

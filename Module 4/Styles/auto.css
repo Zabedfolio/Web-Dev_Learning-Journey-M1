@@ -1,0 +1,24 @@
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.33);
+}
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li a:hover{
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding: 5px;
+}
+

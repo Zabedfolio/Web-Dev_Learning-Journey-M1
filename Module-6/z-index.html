@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Z-index></title>
+        <style>
+            .box{
+                position: relative;
+            }
+            .boy{
+                z-index: 10;
+            }
+
+            .ring{
+                top: -100px;
+                z-index: 5;
+            }
+
+            .water{
+                top: -250px;
+                z-index: 1;
+            }
+
+            h3::after{
+                content: ".pdf";
+                color: red;
+            }
+            p::first-letter{
+                font-size: 2em;
+            }
+
+            ::selection{
+                background-color: lightgreen;
+                color: black;
+            }
+        </style>
+</head>
+<body>
+    <h3>Z Index</h3>
+    <div class="swim-container">
+        <div class="box boy"><img width="200px" src="boy-illustration-vector_844724-3009.avif" alt=""></div>
+        <div class="box ring"><img width="200px" src="pngtree-3d-swim-ring-png-image_7963028.png" alt=""></div>
+        <div class="box water"><img width="200px" src="pngtree-realistic-water-splash-effect-isolated-png-image_20882717.png" alt=""></div>
+    </div>
+
+    <h3>Heading 1</h3>
+    <h3>Heading 2</h3>
+    <h3>Heading 3</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis aliquid dicta eum consequuntur expedita reiciendis, nam aspernatur repudiandae numquam?</p>
+    <p>Voluptatum laborum voluptatem quam distinctio optio mollitia id cumque impedit atque ad temporibus similique dicta voluptatibus numquam, doloremque expedita facere?</p>
+    <p>Provident blanditiis, vero, pariatur molestiae numquam autem molestias inventore, sint ut unde quae tempora hic eius delectus saepe. Quis, totam!</p>
+</body>
+</html>

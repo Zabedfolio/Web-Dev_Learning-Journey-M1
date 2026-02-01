@@ -1,0 +1,23 @@
+.first-article{
+    border: 10px solid tomato;
+    padding: 10px;
+    background-color: beige;
+    box-shadow: 10px 10px 30px grey;
+}
+
+.second-article{
+    margin-top: 50px;
+    border: 10px solid rgb(89, 31, 21);
+    padding: 10px;
+}
+
+.header{
+    height: 300px;
+    background-color: lightblue;
+    padding: 10px;
+    background-image: url('../Images/freepalestine.jpg');
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: contain;
+}
